@@ -1,0 +1,24 @@
+/* shared styles */
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.color-gray {
+  color: rgb(66, 66, 71);
+}
+
+.btn-danger{
+    border-radius: 8px;
+    background: rgb(255, 66, 64);
+}
+header {
+  max-width: 1170px;
+  margin: 50px auto;
+}
+
+/* responsive website styles */
+@media screen and (max-width:576px) {
+  .small-device{
+    margin: 40px ;
+  }
+}
